@@ -1,0 +1,39 @@
+.container{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+#grey{
+    background-color: grey;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#purple{
+    background-color: purple;
+}
+
+span{
+    display: block;
+}
