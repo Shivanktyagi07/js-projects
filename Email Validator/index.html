@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER-SECTIION -->
+    <header>
+       <nav>
+        <div>iValidate</div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Contact Us</a></li>
+            <li><a href="/">About</a></li>
+            
+        </ul>
+        <div>
+            <button>Sign-In</button>
+        </div>
+       </nav>
+    </header>
+      <!-- MAIN-SECTION -->
+      <main>
+      <h1>Enter Your Email to Confirm Validate</h1>
+      <div class="container">
+      
+        <form action="/submit" method="post">
+            <!-- Input Filed to Validate Email Address --> 
+            <input placeholder="Enter your email " type="text" id="username" name="username" required>
+            <br><br>
+            <!-- Submit button -->
+            <input id="submitBtn" class="btn" type="submit" value="Submit">
+          </form>
+    </div>
+
+    <div class="container">
+        <h2>Your Results</h2>
+        <div id="resultCont">
+            Your results will show here
+            
+        </div>
+    </div>
+      </main>
+
+      <!-- FOOTER-SECTION -->
+      <footer>
+        <div>Copy @ Right iValidate | All Right Reserverd !</div>
+      </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
